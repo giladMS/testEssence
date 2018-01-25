@@ -1,0 +1,11 @@
+framework module SamTools {
+  umbrella header "SamTools.h"
+
+  export *
+  module * { export * }
+}
+
+module SamTools.Swift {
+    header "SamTools-Swift.h"
+    requires objc
+}
